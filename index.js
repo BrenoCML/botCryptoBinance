@@ -1,13 +1,3 @@
-/**
- * 1 - Monitoramento
- * 2 - Estratégia
- * 3 - Trade
- * 
- * Obs: comando para conexão em minha pasta 'cd I:\Breno\meus documentos\Breno\Faculdade\Período 8\02 - Sistemas Distribuídos\nodeProjects\binance'
- */
-
-
-
 const WebSocket = require("ws");
 
 /*
@@ -111,6 +101,8 @@ function checkSignals(shortSMA, longSMA) {
 const axios = require('axios');
 const crypto = require('crypto');
 const { URLSearchParams } = require("url");
+
+// Função de efetuação das ordens de compra e venda por meio API da binance
 
 async function newOrder(quantity, side){
     
