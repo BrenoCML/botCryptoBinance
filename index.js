@@ -3,12 +3,12 @@ const WebSocket = require("ws");
 /*
 const STREAM_URL="wss://testnet.binance.vision/ws";
 const API_URL="https://testnet.binance.vision/api";
-const API_KEY = "0VWA0DnSEQMXemZL48Vl6dRtaRUZfA3y4PP18QB2nq90qfR1WH9ZxfF5TO9B3eoS";
-const SECRET_KEY = "dSOf2iUculw58FrjN2whI6WVTINOWMqoaOWdiaEnmnQ5Au2oGESBmKxO9YfwCHaL";
+const API_KEY = "Sua key";
+const SECRET_KEY = "Sua key";
 const SYMBOL="BTCUSDT";
 */
-const SHORT_PERIOD = 10; // Período para a média móvel curta
-const LONG_PERIOD = 40; // Período para a média móvel longa
+const SHORT_PERIOD = 20; // Período para a média móvel curta
+const LONG_PERIOD = 200; // Período para a média móvel longa
 
 const saldoInicial = 10000;
 let saldoAtual = 10000;
