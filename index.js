@@ -1,12 +1,5 @@
 const WebSocket = require("ws");
 
-/*
-const STREAM_URL="wss://testnet.binance.vision/ws";
-const API_URL="https://testnet.binance.vision/api";
-const API_KEY = "Sua key";
-const SECRET_KEY = "Sua key";
-const SYMBOL="BTCUSDT";
-*/
 const SHORT_PERIOD = 20; // Período para a média móvel curta
 const LONG_PERIOD = 200; // Período para a média móvel longa
 
